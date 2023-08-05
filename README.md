@@ -32,10 +32,16 @@ The "content" folder will have all the .pdf files and the "pdf_to_txt" folder wi
 ### Functions
 * download_files_solarSPELL() - Downloads all files in parallel from http://solarspell-dev-web-server.dhcp.asu.edu/ag/content/
 * pdf_to_txt(dir) - Converts .pdf files to .txt files
-* setup_ag_data(dir) - 
+* setup_ag_data(dir) - Creates an .xlsx file of all .txt files and their keywords from keywords_config.txt
 
 
 ## Bard_Api.ipynb
 
 ### Extra files to manually add during runtime
 * keywords_data.xlsx from the google drive (Download the keywords_data as a .xlsx file)
+
+### Functions
+* bard_ag_all(file_limit) - Calls bard_ag(file) up to the file_limit then saves the result in keywords_data.xlsx
+  * Files already in keywords_data.xlsx are skipped
+  * If keywords_data.xlsx does not exist, a new one is created
+* bard_ag(file) - Calls the Bard API using a predefined prompt and a portion of the file passed, returning keywords recieved
