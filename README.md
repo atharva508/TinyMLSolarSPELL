@@ -33,3 +33,9 @@ The "content" folder will have all the .pdf files and the "pdf_to_txt" folder wi
 * download_files_solarSPELL() - Downloads all files in parallel from http://solarspell-dev-web-server.dhcp.asu.edu/ag/content/
 * pdf_to_txt(dir) - Converts .pdf files to .txt files
 * setup_ag_data(dir) - 
+
+
+## Bard_Api.ipynb
+
+### Extra files to manually add during runtime
+* keywords_data.xlsx from the google drive (Download the keywords_data as a .xlsx file)
