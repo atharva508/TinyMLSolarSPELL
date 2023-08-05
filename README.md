@@ -5,7 +5,7 @@
 * .txt files are included in a zip file in the drive called pdf_to_txt.zip
 
 ## Bard API
-* Has a limited frequency (not a set number) of requests that can be made to it
+* Has a limited frequency (instead of a number cap) of requests that can be made to it
 * Requires a __Secure-1PSID to be input as the Bard API key
   * ### To get the __Secure-1PSID
     * Open [Bard](https://bard.google.com)
